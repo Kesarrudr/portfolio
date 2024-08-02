@@ -11,6 +11,7 @@ const PortfolioConfig: Portfolio = {
     twitter: "https://x.com/RudrKesar",
     mail: "mailto:kesarrudr@gmail.com",
     linkedin: "https://www.linkedin.com/in/rudr-kesar/",
+
     //TODO: add discord link also
   },
 };
