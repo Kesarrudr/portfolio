@@ -6,11 +6,12 @@ const ProjectConfig: ProjectType[] = [
     title: "MessageNow",
     description:
       "MessageNow is a messenger clone. The platform ensures instant communication with responsive design and robust authentication, providing users with confidence and trust in their digital interactions.",
-    tags: ["MongoDB", "Tailwind", "React.js", "Next.js", "Prisma", "NextAuth"],
+    tags: ["MongoDB", "Tailwind", "Next.js", "Prisma", "NextAuth"],
     date: "2024-03-08T00:00:00Z",
     body: "",
     image: "/MessageApp.png",
     imageDark: "/MessageApp.png",
+    deploymentlink: "https://messaging-app-drab.vercel.app/",
     links: [
       { name: "Github", url: "https://github.com/Kesarrudr/messaging_app" },
       { name: "Website", url: "https://messaging-app-drab.vercel.app/" },
@@ -34,6 +35,7 @@ const ProjectConfig: ProjectType[] = [
     body: "",
     image: "/tradehub.jpg",
     imageDark: "/tradehub.jpg",
+    deploymentlink: "/",
     links: [
       // { name: "Github", url: "" },
       // { name: "Website", url: "" },
@@ -49,6 +51,7 @@ const ProjectConfig: ProjectType[] = [
     body: "",
     image: "/CryptoLabeler.jpg",
     imageDark: "/CryptoLabeler.jpg",
+    deploymentlink: "/",
     links: [
       // { name: "Github", url: "" },
       // { name: "Website", url: "" },

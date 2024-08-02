@@ -56,6 +56,7 @@ type Project = {
   body: string;
   image: string;
   imageDark?: string;
+  deploymentlink: string;
   links: Array<{
     name: string;
     url: string;
