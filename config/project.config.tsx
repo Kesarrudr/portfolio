@@ -53,7 +53,7 @@ const ProjectConfig: ProjectType[] = [
     imageDark: "/CryptoLabeler.jpg",
     deploymentlink: "/",
     links: [
-      // { name: "Github", url: "" },
+      { name: "Github", url: "https://github.com/Kesarrudr/Cryptolabeler" },
       // { name: "Website", url: "" },
     ],
   },

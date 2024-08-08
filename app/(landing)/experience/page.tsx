@@ -6,11 +6,7 @@ const Experience = ({ experience }: { experience: ExperienceType }) => {
     <div>
       <div className="flex justify-between flex-wrap">
         <p className="font-semibold">
-          <a
-            href={experience.company.url}
-            target=""
-            className="hover:underline font-heading text-lg"
-          >
+          <a href={""} className="hover:underline font-heading text-lg">
             {experience.company.name}
           </a>
           <span className="text-xs px-2 py-1 ml-2 bg-secondary rounded">
