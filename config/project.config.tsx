@@ -49,7 +49,7 @@ const ProjectConfig: ProjectType[] = [
     body: "",
     image: "/Wallet.png",
     imageDark: "",
-    deploymentlink: "/",
+    deploymentlink: "https://wallet.rudrkesar.engineer/",
     links: [
       {
         name: "Github",
