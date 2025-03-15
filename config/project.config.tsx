@@ -22,8 +22,12 @@ const ProjectConfig: ProjectType[] = [
     imageDark: "/tradehub.jpg",
     deploymentlink: "https://merchant.rudrkesar.engineer",
     links: [
-      { name: "Website", url: "https://merchant.rudrkesar.engineer" },
       { name: "Website", url: "https://pay.rudrkesar.engineer" },
+      { name: "Website", url: "https://merchant.rudrkesar.engineer" },
+      {
+        name: "Github",
+        url: "https://github.com/Kesarrudr/crypto_payment",
+      },
     ],
   },
   {
