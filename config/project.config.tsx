@@ -2,6 +2,31 @@ import type { Project as ProjectType } from "@/types/index.types";
 
 const ProjectConfig: ProjectType[] = [
   {
+    slug: "Web3 Payment Solutions",
+    title: "Web3 Payment",
+    description:
+      "Crypto Payment is a simple and secure way for businesses to accept crypto payments in USDC, no matter what token the customer uses. It automatically swaps any token to USDC using Jupiter, making transactions easy for both buyers and sellers. Built on Solana, it ensures fast, low-cost payments with wallet-based login for security. ",
+    tags: [
+      "Postgres",
+      "NextJs",
+      "Next.js",
+      "Prisma",
+      "TypeScript",
+      "NextAuth",
+      "Jupiter",
+      "Blockchain",
+    ],
+    date: "2025-03-15T00:00:00Z",
+    body: "",
+    image: "/tradehub.jpg",
+    imageDark: "/tradehub.jpg",
+    deploymentlink: "https://merchant.rudrkesar.engineer",
+    links: [
+      { name: "Website", url: "https://merchant.rudrkesar.engineer" },
+      { name: "Website", url: "https://pay.rudrkesar.engineer" },
+    ],
+  },
+  {
     slug: "Token LaunchPad",
     title: "Token LaunchPad",
     description:
@@ -56,30 +81,6 @@ const ProjectConfig: ProjectType[] = [
         url: "https://github.com/Kesarrudr/crypto_wallet_generator-",
       },
       { name: "Website", url: "https://wallet.rudrkesar.engineer" },
-    ],
-  },
-  {
-    slug: "TradeHub",
-    title: "TradeHub (InDev.)",
-    description:
-      "TradeHub is a centralized exchange platform designed for seamless trading of cryptocurrencies and stocks. The platform is engineered to handle high trading volumes, providing users with a reliable and intuitive trading experience.",
-    tags: [
-      "Postgres",
-      "Redis",
-      "React.js",
-      "Next.js",
-      "Prisma",
-      "PubSubs",
-      "WebSockets",
-    ],
-    date: "2024-08-15T00:00:00Z",
-    body: "",
-    image: "/tradehub.jpg",
-    imageDark: "/tradehub.jpg",
-    deploymentlink: "/",
-    links: [
-      // { name: "Github", url: "" },
-      // { name: "Website", url: "" },
     ],
   },
 ];

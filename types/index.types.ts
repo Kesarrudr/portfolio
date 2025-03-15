@@ -50,6 +50,7 @@ type Experience = {
 type Project = {
   title: string;
   description: string;
+  secondDeployment?: string;
   date: string;
   slug: string;
   tags: string[];

@@ -1,6 +1,5 @@
 import type { Project as ProjectType } from "@/types/index.types";
 import { StepForward } from "lucide-react";
-import Link from "next/link";
 import Picture from "./picture";
 import { IconMap } from "./icon-map";
 
